@@ -1,0 +1,1 @@
+int codifica (void* valores, char* campos, FILE* arquivo);

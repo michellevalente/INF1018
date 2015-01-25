@@ -1,0 +1,88 @@
+/* Lucas Hardman Gomes Campos FranÃ§a 1113567 */
+/* Michelle Andrade Valente da Silva 1312828 */
+
+O grupo conseguiu implementar todas as funções necessárias para o funcinamento do trabalho descrito.
+Além das estruturas escolhidas pelo grupo, foram utilizadas as disponibilizadas para teste. Todas elas
+tiveram os resultados esperados. 
+
+TESTES REALIZADOS
+
+O grupo buscou escolher estruturas que estivessem em ordem diferente de char e int, para ver se o
+funcionamento do padding estava ocorrendo corretamente. Observando o resultado encontrado conseguimos
+observar que ele estava sendo feito de maneira correta.
+
+Além disso, ao tratar de valores inteiros testamos valores negativos e positivos, para analisar se a
+função de zigzag estava sendo feita de maneira correta. 
+
+Exemplos de estruturas escolhidas pelo grupo:
+
+typedef struct s1 {
+    char s1[4];
+
+  }
+t1;
+
+t1 e1 = {"tes"}
+
+typedef struct s2 {
+    int n1;
+
+  }
+t2;
+
+t2 e2 = {-1}
+
+typedef struct s3 {
+    int n1;
+    char s1[4]
+
+  }
+t3;
+
+t3 e3 = {-1, "tes"}
+
+typedef struct s4 {
+    char s1[6];
+    char s2[9];
+
+  }
+t4;
+
+t4 e4 = {"teste", "testando"}
+
+typedef struct s5 {
+    int n1;
+    int n2;
+
+  }
+t5;
+
+t5 e5 = {-1, 150}
+
+typedef struct s6 {
+    char s1[6];
+    int n2;
+    char s2[9];
+
+  }
+t6;
+
+t6 e6 = {"teste", -1, "testando"}
+
+Estruturas disponibilizadas no trabalho para teste:
+
+  typedef struct {
+    int i1;
+    int i2;
+  } S1;
+
+  S1 e1 = {1, -1};
+
+  typedef struct {
+    int i1;
+    int i2;
+    char s1[3];
+    int i3;
+  } S2;
+
+  S2 e2 = {150, -150, "oi", 65632};

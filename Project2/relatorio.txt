@@ -1,0 +1,25 @@
+/* Lucas Hardman Gomes Campos França - 1113567 - 3WB */
+/* Michelle Andrade Valente da Silva - 1312828 - 3WB */
+
+A função gera_func.c está funcionando para todos os casos de testes enviados:
+- f_quadrado
+- foo
+- memcmp
+- exteste.c
+
+No inicio testamos funções mais simples, por exemplo que apenas recebiam uma cadeia 
+de caracteres (parametro como ponteiro) grande e retornava ela, e depois com todos os 
+outros tipos de parametros.
+Após esses testes e corrigos alguns erros, realizamos funções matematicas, como somar
+e multiplicar diferentes tipos de parametros, às vezes deixando-os como amarrados e
+outras vezes não. Em nenhum desses casos encontramos erros.
+Além disso foram feitas funções de testes para verificar o funcionamento de doubles
+grandes amarrados e não amarrados. Por exemplo a função: 
+
+   double testa(double a , double b){
+	return a * b ;
+   }
+
+Primeiro sem os valores amarrados e depois com um deles amarrado. 
+
+Em nenhum caso de teste foram encontrados erros.
